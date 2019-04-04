@@ -1,18 +1,10 @@
-console.log({ name: 'Alpha', age: 100, superPower: true })
-console.log({
-  name: 'Alpha',
-  age: 100,
-  superPower: true
-})
+console.log(true)
+console.log(false)
+console.log(true, false)
 
-const hero = { name: 'Alpha', age: 100, superPower: true }
+const toggle = false
 
-console.log(hero)
-console.log(hero['name'])
-console.log(hero.age)
-console.log(hero.superPower)
+console.log(`The lamp's toggle is ${toggle}`)
 
-alert(hero)
-alert(hero['name'])
-alert(hero.age)
-alert(hero.superPower)
+alert(`The lamp's toggle is ${toggle}`)
+
