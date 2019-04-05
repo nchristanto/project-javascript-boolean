@@ -4,7 +4,8 @@ console.log(true, false)
 
 const toggle = false
 
-console.log(`The lamp's toggle is ${toggle}`)
 
-alert(`The lamp's toggle is ${toggle}`)
+console.log(`sugar is sweet ${toggle}`)
+
+alert('pepper is spicy ' + `${ toggle}`)
 
